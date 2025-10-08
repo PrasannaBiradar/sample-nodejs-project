@@ -1,0 +1,6 @@
+aws_region      = "us-east-1"
+vpc_name        = "sample-node-vpc"
+ecr_repo_name   = "sample-node-mongo-ecr"
+ecs_cluster_name = "sample-node-ecs-cluster"
+mongo_uri       = "mongodb+srv://<username>:<password>@cluster0.mongodb.net/test?retryWrites=true&w=majority"
+env_name        = "dev"
